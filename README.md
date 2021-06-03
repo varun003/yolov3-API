@@ -8,16 +8,6 @@ This repository provides a simple implementation of object detection in Python, 
 
 ### 1. Clone repository and install requirements
 
-##### NOTE: I am using Windows OS and Pip for package installation, and I have to install pytorch separately else I will run into issues. The command for installation varies, so do check out the <a href="https://pytorch.org/">PyTorch website</a> and see which command you should run under "Quick Start Locally". For me, I run this:
-```
-pip install torch==1.5.0+cpu torchvision==0.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-```
-```
-git clone git@github.com:yankai364/Object-Detection-Flask-API.git
-cd Object-Detection-Flask-API
-pip install -r requirements.txt
-```
-
 
 ### 2. Download pre-trained weights
 You can download the YOLOv3 pre-trained weights on the COCO dataset here:
